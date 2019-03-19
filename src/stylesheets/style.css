@@ -52,8 +52,9 @@ code {
 .first .signupForm .wrapper .content {
   padding: 20px 50px;
   background-color: #fff;
+  text-align: center;
 }
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .first .signupForm .wrapper .content h2 {
   text-align: center;
   color: #005959;
@@ -61,20 +62,33 @@ code {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 55, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .first .signupForm .wrapper .content .input_field {
+  text-align: left;
   padding: 2%;
 }
-/* line 57, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .first .signupForm .wrapper .content .input_field label {
   font-size: 20px;
 }
-/* line 60, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .first .signupForm .wrapper .content .input_field input {
   width: 100%;
   padding: 10px;
   margin: 20px;
   border: none;
   border-bottom: 1px solid #000;
+  outline: none;
+}
+/* line 71, ../sass/style.scss */
+.first .signupForm .wrapper .content button {
+  background-color: #ffa600;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  margin: 20px 0;
+  border-radius: 25px;
+  border: none;
   outline: none;
 }

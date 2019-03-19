@@ -21,7 +21,6 @@ const App = () => (
                 </header>
                     <div className="wrapper">   
                         <div className="content">
-                            <h2>Sign Up</h2>
                             <div className="input_field">
                                 <label>User Name:</label>
                                 <input type="text" name="uname" placeholder="Enter User Name"></input>
@@ -38,6 +37,7 @@ const App = () => (
                                 <label>Confirm Password:</label>
                                 <input type="password" name="pass" placeholder="Enter Password"></input>
                             </div>
+                            <button type="submit">Sign up</button>
                         </div> 
                     </div>
             </form>
